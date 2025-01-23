@@ -1,5 +1,5 @@
 import { Button } from "flowbite-react";
-
+import { HiOutlineArrowRight} from "react-icons/hi";
 function HeroSection() {
   return (
     <section className="bg-[url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1')] bg-cover bg-center">
@@ -14,7 +14,7 @@ function HeroSection() {
             students to benefit from the system.
           </p>
           <div className="flex flex-col items-center justify-center">
-            <Button className="mb-5">Check Your Eligibility</Button>
+            <Button className="mb-5">Check Your Eligibility<HiOutlineArrowRight className="ml-2 size-5" /></Button>
             <div className="text-sm text-gray-300 md:text-base">
               <p className="font-semibold">PMSSS Scholarship</p>
               <p className="mt-2">
